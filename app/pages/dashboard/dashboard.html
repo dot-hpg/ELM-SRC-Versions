@@ -1,0 +1,70 @@
+<div class="container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>ELMS Admin</h2>
+    <ul>
+      <li class="active"><a href="#">Dashboard</a></li>
+      <li><a href="#">Employees</a></li>
+      <li><a href="#">Leave Management</a></li>
+      <li><a href="#">Reports</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Topbar -->
+    <header class="topbar">
+      <span>Dashboard</span>
+      <div class="user-menu">
+        <span>Admin User</span>
+      </div>
+    </header>
+
+    <!-- Stats Cards -->
+    <section class="stats">
+      <div class="card blue">
+        <h3>Total Employees</h3>
+        <p>156</p>
+      </div>
+      <div class="card green">
+        <h3>Active Leaves</h3>
+        <p>23</p>
+      </div>
+      <div class="card teal">
+        <h3>Pending Approvals</h3>
+        <p>8</p>
+      </div>
+      <div class="card orange">
+        <h3>This Month</h3>
+        <p>45</p>
+      </div>
+    </section>
+
+    <!-- Leave Applications + Quick Actions -->
+    <section class="dashboard-body">
+      <!-- Recent Applications Table -->
+      <div class="recent-apps">
+        <h3>Recent Leave Applications</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Employee</th>
+              <th>Leave Type</th>
+              <th>Duration</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>Sick Leave</td>
+              <td>2 days</td>
+              <td><span class="status pending">Pending</span></td>
+              <td>
+                <button class="approve">Approve</button>
+                <button class="reject">Reject</button>
+              </td>
+            </tr>
+            <tr>
